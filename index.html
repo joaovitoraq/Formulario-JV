@@ -1,0 +1,148 @@
+<!-- Vitin do Pneu -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | JV</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Formulário de Inscrição</h1>
+        <form action="#">
+            <input type="number" placeholder="Digite seu CPF (somente números)" class="inputs" >
+
+            <input type="text" placeholder="Digite seu nome completo" class="inputs">
+            
+            <div class="data">
+                <label>Data de Nascimento:</label>
+                <input type="date" name="data">
+            </div>
+            <hr>
+
+            <input type="number" placeholder="Digite seu CEP (somente números)" class="inputs" >
+
+            <div class="rua">
+                <input type="text" placeholder="Rua / Avenida" class="inputs">
+                <input type="number" placeholder="Número" class="inputs" >
+            </div>
+
+            <input type="text" placeholder="Bairro" class="inputs">
+
+            <input type="text" placeholder="Complemento" class="inputs">
+
+            <div class="m-uf">
+                <input type="text" placeholder="Município" class="inputs">
+                <select id="uf" >
+                    <option selected disabled value="">UF</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+            </div>
+            <hr>
+
+            <div class="tel">
+                <input type="tel" placeholder="Telefone Fixo" class="inputs">
+                <input type="tel" placeholder="Celular" class="inputs" id="cel">
+            
+            </div>
+            <hr>
+
+            <input type="email" placeholder="Digite seu melhor email" class="inputs">
+            <input type="email" placeholder="Repita seu email" class="inputs">
+            
+            <input type="password" placeholder="Crie uma senha" class="inputs">
+            <input type="password" placeholder="Repita sua senha" class="inputs">
+
+            <p>O que você deseja aprender?</p>
+            <div class="box-selecao">
+                <div>
+                    <input type="checkbox" id="html" name="exp">
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="css" name="exp">
+                    <label for="css">Css</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="js" name="exp">
+                    <label for="js">JavaScript</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="php" name="exp">
+                    <label for="php">PHP</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="py" name="exp">
+                    <label for="py">Python</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="java" name="exp">
+                    <label for="java">Java</label>
+                </div>
+            </div>
+
+            <p>Como tomou ciência do curso?</p>
+            <div class="box-selecao">
+                <div>
+                    <input type="radio" id="go" name="dev">
+                    <label for="go">Google</label>
+                </div>
+                <div>
+                    <input type="radio" id="email" name="dev">
+                    <label for="email">E-mail</label>
+                </div>
+                <div>
+                    <input type="radio" id="tv" name="dev">
+                    <label for="tv">TV</label>
+                </div>
+                <div>
+                    <input type="radio" id="rd" name="dev">
+                    <label for="rd">Redes sociais</label>
+                </div>
+                <div>
+                    <input type="radio" id="ind" name="dev">
+                    <label for="ind">Indicação</label>
+                </div>
+                <div>
+                    <input type="radio"  id="ot" name="dev">
+                    <label for="ot">Outros</label>
+                    <input type="text" class="inputs" placeholder="...">
+                </div>
+            </div>
+
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
