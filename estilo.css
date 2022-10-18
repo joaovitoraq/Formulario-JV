@@ -88,7 +88,6 @@ h1{
     outline: none;
 }
 
-
 .m-uf select:focus{
     border-color: var(--color-green);
 }
